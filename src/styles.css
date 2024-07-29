@@ -1,0 +1,76 @@
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+.FormNewValues{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+
+}
+
+input{
+    padding: 1rem 4rem;
+    border: none;
+    box-shadow: 1px 2px 5px 1px rgb(0,0,0,0.1);
+    border-radius: 1rem;
+    color:gray;
+}
+
+button{
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    border:none;
+    box-shadow: 1px 2px 5px 1px rgb(0,0,0,0.1);
+    font-weight: bold;
+    font-size: 1rem;
+    color: gray;
+    cursor: pointer;
+}
+.tblQuiz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+table, td{
+    border: 1px solid black;
+    border: none;
+  }
+tr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+table{
+    border-radius: 0.5rem;
+    padding: 0.9rem 4rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    flex-direction: column;
+}
+
+
+.result{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+span{
+    padding: 1rem 3rem;
+    background-color: gray;
+    border-radius: 1rem;
+    color: white;
+    font-weight: bold;
+}
